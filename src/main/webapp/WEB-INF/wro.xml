@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups xmlns="http://www.isdc.ro/wro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
+	<group name="basic">
+		<!-- vendor.js压缩会报错 -->
+		<js minimize="false">/build/vendor.js</js>
+		<js minimize="false">/build/angular-translate.min.js</js>
+		<js minimize="false">/build/angular-cookies.min.js</js>
+		<js minimize="false">/build/app-modules.js</js>
+		<js minimize="false">/build/app.js</js>
+		<js minimize="false">/build/app/public.js</js>
+		<js minimize="false">/build/app/layout.js</js>
+		<js minimize="false">/build/app/SmartAdmin.js</js>
+		<js minimize="false">/build/app/appView.js</js>
+		<js minimize="false">/build/app/calendar.js</js>
+		<js minimize="false">/build/app/forms.js</js>
+		<js minimize="false">/build/app/ui.js</js>
+		<js minimize="true">/build/app/graphs.js</js>
+		<js minimize="false">/build/app/tables.js</js>
+		<js minimize="false">/build/app/widgets.js</js>
+		<js minimize="false">/build/app/maps.js</js>
+		<js minimize="false">/build/app/misc.js</js>
+		<js minimize="false">/build/app/dashboard.js</js>
+		<js minimize="false">/build/app/chat.js</js>
+		<js minimize="false">/build/app/inbox.js</js>
+		<js minimize="false">/build/app/eCommerce.js</js>
+		<js minimize="false">/build/app/DataCache.js</js>
+		<!-- 全局配置 -->
+		<js>classpath:META-INF/resources/scripts/config/cfgConfig.js</js>
+		
+		<css>/styles/css/bootstrap.min.css</css>
+		<css>/styles/css/font-awesome.min.css</css>
+		<css>/styles/css/smartadmin-production-plugins.min.css</css>
+		<css>/styles/css/smartadmin-production.min.css</css>
+		<css>/styles/css/smartadmin-skins.min.css</css>
+		<css>/styles/css/smartadmin-angular.css</css>
+		<css>/styles/css/smartadmin-rtl.min.css</css>
+		<css>/styles/css/demo.min.css</css>
+		<css>/styles/css/sweet-alert.css</css>
+	</group>
+	<group name="plugins">
+		<js>classpath:META-INF/resources/xyplugins/xy-public.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-pagination.js</js>
+		<js>classpath:META-INF/resources/xyplugins/select/select.min.js</js>
+		<js minimize="false">classpath:META-INF/resources/xyplugins/xy-select.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-datepicker.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-radio.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-checkbox.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-authfilter.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-codemirror.js</js>
+		<js>classpath:META-INF/resources/xyplugins/layer/layer.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-pswstrengh.js</js>
+		
+		<js>classpath:META-INF/resources/xyplugins/xy-tip-validate.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-ztree.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-layer.js</js>
+		<js>classpath:META-INF/resources/xyplugins/html2canvas.js</js>
+		
+		<css>classpath:META-INF/resources/xyplugins/contextmenu/jquery.contextmenu.css</css>
+		<js>classpath:META-INF/resources/xyplugins/contextmenu/jquery.contextmenu.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-contextmenu.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-des.js</js>
+		
+		<!-- 文件上传、管理 -->
+	    <css>/xyplugins/uploadify/uploadify.css</css>
+		<js>classpath:META-INF/resources/xyplugins/uploadify/jquery.uploadifive.min.js</js>
+		<js>classpath:META-INF/resources/xyplugins/uploadify/jquery.uploadify.min.js</js>
+		<js>classpath:META-INF/resources/xyplugins/uploadify/xy-uploadify.js</js>
+		
+		<!-- 通用过滤器 -->
+	    <js>classpath:META-INF/resources/xyplugins/xy-commonfilter.js</js>
+		
+		<!-- ueditor -->
+		<js minimize="false">classpath:META-INF/resources/xyplugins/ueditor/ueditor.config.js</js>
+		<js minimize="false">classpath:META-INF/resources/xyplugins/ueditor/ueditor.all.min.js</js>
+	    <js>classpath:META-INF/resources/xyplugins/xy-ueditor.js</js>
+	    
+	    <!-- capture -->
+	    <js>classpath:META-INF/resources/xyplugins/xy-capture.js</js>
+	    
+	    <!-- scrollbar -->
+	    <js>classpath:META-INF/resources/xyplugins/xy-scrollbar.js</js>
+		
+		<!-- 弹出菜单树 -->
+		<js>classpath:META-INF/resources/xyplugins/xy-menuselect.js</js>
+		<!-- 弹出机构树 -->
+		<js>classpath:META-INF/resources/xyplugins/xy-orgselect.js</js>
+		
+		<!-- 认证模块 -->
+		<js>classpath:META-INF/resources/scripts/auth/authConfig.js</js>
+		<!-- 权限管理 -->
+		<js>classpath:META-INF/resources/scripts/rms/rmsConfig.js</js>
+		<!-- 代码生成 -->
+		<js>classpath:META-INF/resources/scripts/codegen/codeGenConfig.js</js>
+		<!-- 开发库管理 -->
+		<js>classpath:META-INF/resources/scripts/develop/developConfig.js</js>
+		<!-- 日志管理 -->
+		<js>classpath:META-INF/resources/scripts/syslog/logConfig.js</js>
+		<!-- 工作流管理 -->
+		<js>classpath:META-INF/resources/scripts/workflow/workflowConfig.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-workflow.js</js>
+		<!-- 组件 -->
+		<js>/build/app/componentConfig.js</js>
+		<!-- 弹出机构人员树 -->
+		<js>classpath:META-INF/resources/xyplugins/xy-orguserselect.js</js>
+		<!-- cms -->
+		<js>classpath:META-INF/resources/xyplugins/xy-cmscategory.js</js>
+		<js>classpath:META-INF/resources/scripts/cms/cmsConfig.js</js>
+		
+		<!-- 消息推送 -->
+		<js minimize="false">classpath:META-INF/resources/xyplugins/sockjs.min.js</js>
+		<js minimize="false">classpath:META-INF/resources/xyplugins/stomp.min.js</js>
+		<js>classpath:META-INF/resources/xyplugins/xy-stomp-services.js</js>
+	
+		<!-- 信访测试管理 -->
+		<js>/scripts/visit/visitConfig.js</js>
+	</group>
+</groups>  
