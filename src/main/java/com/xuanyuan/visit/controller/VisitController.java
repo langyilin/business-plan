@@ -69,8 +69,8 @@ public class VisitController extends BaseController {
 	@Autowired
 	private VisitServiceI visitService;//信件接口
 	
-	@Autowired
-    private RepositoryService repositoryService;
+//	@Autowired
+//    private RepositoryService repositoryService;
 
     @Autowired
     private TaskServiceI taskService;
