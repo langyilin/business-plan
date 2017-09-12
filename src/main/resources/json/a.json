@@ -1,0 +1,162 @@
+{"properties": [
+  {
+    "name": "wro.para.debug",
+    "type": "java.lang.String",
+    "description": "是否打开DEBUG模式"
+  },
+  {
+    "name": "wro.para.disableCache",
+    "type": "java.lang.String",
+    "description": "是否打开缓存模式"
+  },
+  {
+    "name": "js.filter.open",
+    "type": "java.lang.String",
+    "description": "A description for 'js.filter.open'"
+  },
+  {
+    "name": "cache.open",
+    "type": "java.lang.String",
+    "description": "A description for 'cache.open'"
+  },
+  {
+    "name": "web.prefix",
+    "type": "java.lang.String",
+    "description": "A description for 'web.prefix'"
+  },
+  {
+    "name": "projectPath",
+    "type": "java.lang.String",
+    "description": "代码生成配置：代码生成对应项目路径"
+  },
+  {
+    "name": "projectName",
+    "type": "java.lang.String",
+    "description": "代码生成配置：代码生成项目名称"
+  },
+  {
+    "name": "upload.remote",
+    "type": "java.lang.String",
+    "description": "是否开启远程文件服务器模式"
+  },
+  {
+    "name": "upload.folder",
+    "type": "java.lang.String",
+    "description": "远程文件服务器文件上传目录"
+  },
+  {
+    "name": "web.root",
+    "type": "java.lang.String",
+    "description": "远程文件服务器访问路径"
+  },
+  {
+    "name": "sftp.username",
+    "type": "java.lang.String",
+    "description": "远程文件服务器用户名"
+  },
+  {
+    "name": "sftp.password",
+    "type": "java.lang.String",
+    "description": "远程文件服务器密码"
+  },
+  {
+    "name": "sftp.keyFilePath",
+    "type": "java.lang.String",
+    "description": "远程文件服务器密钥路径"
+  },
+  {
+    "name": "sftp.host",
+    "type": "java.lang.String",
+    "description": "远程文件服务器主机IP地址"
+  },
+  {
+    "name": "static.proxy.dir",
+    "type": "java.lang.String",
+    "description": "远程文件服务器静态文件目录"
+  },
+  {
+    "name": "static.path",
+    "type": "java.lang.String",
+    "description": "远程文件服务器访问路径"
+  },
+  {
+    "name": "sftp.port",
+    "type": "java.lang.String",
+    "description": "远程文件服务器端口"
+  },
+  {
+    "name": "mail.fromMail.addr",
+    "type": "java.lang.String",
+    "description": "系统邮件发送方"
+  },
+  {
+    "name": "license.domain",
+    "type": "java.lang.String",
+    "description": "授权管理-在线申请授权地址"
+  },
+  {
+    "name": "license.lic.folder",
+    "type": "java.lang.String",
+    "description": "授权管理-授权文件存放目录"
+  },
+  {
+    "name": "web.view.prefix",
+    "type": "java.lang.String",
+    "description": "JSP 存放根目录，和Spring MVC 配置视图 prefix一致"
+  },
+  {
+    "name": "web.view.dir",
+    "type": "java.lang.String",
+    "description": "默认JSP存放子目录，如果不需要则为空"
+  },
+  {
+    "name": "flow.rest.prefix",
+    "type": "java.lang.String",
+    "description": "Activiti工作流引擎RESTAPI前缀"
+  },
+  {
+    "name": "workflow.activityFontName",
+    "type": "java.lang.String",
+    "description": "Activiti工作流引擎字体编码"
+  },
+  {
+    "name": "workflow.labelFontName",
+    "type": "java.lang.String",
+    "description": "Activiti工作流引擎label字体编码"
+  },
+  {
+    "name": "jdbc.type",
+    "type": "java.lang.String",
+    "description": "系统数据库类型"
+  },
+  {
+    "name": "tenant.db.prefix",
+    "type": "java.lang.String",
+    "description": "SaaS多租户数据库前缀"
+  },
+  {
+    "name": "tenant.open",
+    "type": "java.lang.String",
+    "description": "是否开启SaaS多租户架构模式"
+  },
+  {
+    "name": "rand.code.length",
+    "type": "java.lang.String",
+    "description": "登录验证码长度"
+  },
+  {
+    "name": "rand.code.sessonname",
+    "type": "java.lang.String",
+    "description": "登录验证码SESSION名称"
+  },
+  {
+    "name": "logout.path",
+    "type": "java.lang.String",
+    "description": "系统退出路径"
+  },
+  {
+    "name": "des.thirdKey",
+    "type": "java.lang.String",
+    "description": "加密配置"
+  }
+]}
